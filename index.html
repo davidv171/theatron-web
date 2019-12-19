@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title> Get your Theatron token from Twitch </title>
+</head>
+<body>
+<p> <b> Take this token, and copy it into .oauth file. </b> </p>
+<p class="title"> Token: </p>
+<p id="token" class="center" > "If you can see this text, token wasn't generated"  </p>
+</body>
+<script>
+    x = window.location.hash.substring(1).split("=")[1].split("&")[0];
+    document.getElementById('token').innerHTML = x
+</script>
+</html>
