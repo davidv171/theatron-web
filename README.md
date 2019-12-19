@@ -10,5 +10,5 @@ Why is there a docker file:
 
 Why is the HTML/JS/Go code so bad? 
 
-- I'm bad
+- I'm bad, help me be less bad.
 
